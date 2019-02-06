@@ -1,0 +1,14 @@
+﻿game.obj : error LNK2019: unresolved external symbol D3DXCreateFontA referenced in function "public: virtual void __cdecl Game::initialize(struct HWND__ *)" (?initialize@Game@@UEAAXPEAUHWND__@@@Z)
+textDX.obj : error LNK2001: unresolved external symbol D3DXCreateFontA
+graphics.obj : error LNK2019: unresolved external symbol Direct3DCreate9 referenced in function "public: void __cdecl Graphics::initialize(struct HWND__ *,int,int,bool)" (?initialize@Graphics@@QEAAXPEAUHWND__@@HH_N@Z)
+graphics.obj : error LNK2019: unresolved external symbol D3DXMatrixTransformation2D referenced in function "public: void __cdecl Graphics::drawSprite(struct SpriteData const &,unsigned long)" (?drawSprite@Graphics@@QEAAXAEBUSpriteData@@K@Z)
+textDX.obj : error LNK2001: unresolved external symbol D3DXMatrixTransformation2D
+graphics.obj : error LNK2019: unresolved external symbol D3DXCreateSprite referenced in function "public: void __cdecl Graphics::initialize(struct HWND__ *,int,int,bool)" (?initialize@Graphics@@QEAAXPEAUHWND__@@HH_N@Z)
+graphics.obj : error LNK2019: unresolved external symbol D3DXGetImageInfoFromFileA referenced in function "public: long __cdecl Graphics::loadTexture(char const *,unsigned long,unsigned int &,unsigned int &,struct IDirect3DTexture9 * &)" (?loadTexture@Graphics@@QEAAJPEBDKAEAI1AEAPEAUIDirect3DTexture9@@@Z)
+graphics.obj : error LNK2019: unresolved external symbol D3DXCreateTextureFromFileExA referenced in function "public: long __cdecl Graphics::loadTexture(char const *,unsigned long,unsigned int &,unsigned int &,struct IDirect3DTexture9 * &)" (?loadTexture@Graphics@@QEAAJPEBDKAEAI1AEAPEAUIDirect3DTexture9@@@Z)
+input.obj : error LNK2019: unresolved external symbol XInputGetState referenced in function "public: void __cdecl Input::checkControllers(void)" (?checkControllers@Input@@QEAAXXZ)
+input.obj : error LNK2019: unresolved external symbol XInputSetState referenced in function "public: void __cdecl Input::vibrateControllers(float)" (?vibrateControllers@Input@@QEAAXM@Z)
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Lib\x86\d3d9.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Lib\x86\d3dx9.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Lib\x86\xinput.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Downloads\Sprite\VaultScape\x64\Debug\VaultScape.exe : fatal error LNK1120: 8 unresolved externals
