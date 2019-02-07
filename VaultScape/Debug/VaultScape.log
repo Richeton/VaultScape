@@ -1,1 +1,11 @@
-﻿  VaultScape.vcxproj -> D:\Downloads\Sprite\VaultScape\Debug\VaultScape.exe
+﻿  runningState.cpp
+d:\downloads\sprite\vaultscape\vaultscape\buttons.h(50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\downloads\sprite\vaultscape\vaultscape\buttons.h(51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\downloads\sprite\vaultscape\vaultscape\buttons.h(52): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\downloads\sprite\vaultscape\vaultscape\buttons.h(53): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\downloads\sprite\vaultscape\vaultscape\buttons.h(54): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\downloads\sprite\vaultscape\vaultscape\buttons.h(55): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\downloads\sprite\vaultscape\vaultscape\runningstate.cpp(44): warning C4305: '-=': truncation from 'double' to 'float'
+d:\downloads\sprite\vaultscape\vaultscape\runningstate.cpp(49): warning C4305: '+=': truncation from 'double' to 'float'
+d:\downloads\sprite\vaultscape\vaultscape\runningstate.cpp(13): warning C4101: 'testX': unreferenced local variable
+  VaultScape.vcxproj -> D:\Downloads\Sprite\VaultScape\Debug\VaultScape.exe

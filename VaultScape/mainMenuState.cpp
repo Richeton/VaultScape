@@ -146,7 +146,6 @@ void MainMenuState::render(VaultScape * game)
 		buttonList[i].getImage().draw();
 		buttonList[i].getImage().printText(buttonList[i].getFont(),buttonList[i].getText());
 	}
-
 }
 
 void MainMenuState::update(VaultScape * game)

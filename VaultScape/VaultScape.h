@@ -64,5 +64,7 @@ public:
 	Image map;
 	TextDX * buttonFont;
 
+	float scale = 1.5;
+
 };
 #endif

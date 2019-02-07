@@ -104,8 +104,8 @@ public:
 
 		if (mouseX > left && mouseX < right && mouseY > top && mouseY < bottom)
 			return true;
-		else
-			return false;
+
+		return false;
 
 	}
 
