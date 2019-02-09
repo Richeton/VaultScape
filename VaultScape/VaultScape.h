@@ -8,7 +8,6 @@
 #define WIN32_LEAN_AND_MEAN
 
 #include "game.h"
-#include "buttons.h"
 #include "image.h"
 #include "textureManager.h"
 #include "textDX.h"
@@ -61,7 +60,7 @@ public:
 	Image backgroundMainMenu;
 	Image backgroundPaused;
 	Image buttonImage;
-	Image map;
+	Image tileSprites;
 	TextDX * buttonFont;
 
 	float scale = 1.5;

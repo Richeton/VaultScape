@@ -3,7 +3,7 @@
 #define WIN32_LEAN_AND_MEAN
 
 #include "gameState.h"
-#include "bitmap.h"
+#include "map.h"
 
 class RunningState :public GameState
 {
@@ -22,7 +22,7 @@ public:
 
 private:
 	std::vector<Button> buttonList;
-	BitMap bitmap;
+	Map map;
 	float mapX;
 	float mapY;
 	Image tile;

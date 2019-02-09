@@ -4,10 +4,11 @@
 //  Student Number:     S10171663K, S10171533K, S10166869D, S10172123B
 
 #include "VaultScape.h"
-#include "bitmap.h"
 #include "gameState.h"
 #include "mainMenuState.h"
 
+#include "buttons.h"
+#include "map.h"
 
 
 VaultScape::VaultScape()
@@ -55,7 +56,7 @@ void VaultScape::initialize(HWND hwnd)
 		throw(GameError(gameErrorNS::FATAL_ERROR,
 			"Error initializing pause"));
 
-	if (!map.initialize(graphics, bitmapNS::TEXTURE_SIZE, bitmapNS::TEXTURE_SIZE, 4, &mapTexture))
+	if (!tileSprites.initialize(graphics, MapNS::TILE_SIZE, MapNS::TILE_SIZE, 4, &mapTexture))
 		throw(GameError(gameErrorNS::FATAL_ERROR,
 			"Error initializing map sprites"));
 

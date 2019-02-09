@@ -66,10 +66,7 @@
     <ClCompile Include="fileIO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bitmap.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="smallMap.cpp">
+    <ClCompile Include="map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -125,10 +122,7 @@
     <ClInclude Include="fileIO.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bitmap.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="smallMap.h">
+    <ClInclude Include="map.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

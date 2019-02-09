@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bitmap.cpp" />
     <ClCompile Include="buttons.cpp" />
     <ClCompile Include="fileIO.cpp" />
     <ClCompile Include="game.cpp" />
@@ -135,11 +134,11 @@
     <ClCompile Include="image.cpp" />
     <ClCompile Include="input.cpp" />
     <ClCompile Include="mainMenuState.cpp" />
+    <ClCompile Include="map.cpp" />
     <ClCompile Include="optionsState.cpp" />
     <ClCompile Include="pausedState.cpp" />
     <ClCompile Include="quitState.cpp" />
     <ClCompile Include="runningState.cpp" />
-    <ClCompile Include="smallMap.cpp" />
     <ClCompile Include="textDX.cpp" />
     <ClCompile Include="textureManager.cpp" />
     <ClCompile Include="VaultScape.cpp" />
@@ -156,12 +155,11 @@
     <ClInclude Include="image.h" />
     <ClInclude Include="input.h" />
     <ClInclude Include="mainMenuState.h" />
-    <ClInclude Include="bitmap.h" />
+    <ClInclude Include="map.h" />
     <ClInclude Include="optionsState.h" />
     <ClInclude Include="pausedState.h" />
     <ClInclude Include="quitState.h" />
     <ClInclude Include="runningState.h" />
-    <ClInclude Include="smallMap.h" />
     <ClInclude Include="textDX.h" />
     <ClInclude Include="textureManager.h" />
     <ClInclude Include="VaultScape.h" />
